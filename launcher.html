@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>KinoPub TV</title></head>
+<body style="margin:0;background:#081014;color:#f4f1e9;font:24px Arial;display:grid;place-items:center;min-height:100vh">
+<p id="status">Проверяем версию приложения…</p>
+<script>
+(function () {
+  var base = 'https://sunrock98.github.io/kinopub-lg-updates/releases/';
+  var key = 'kinopub.lg.release_url';
+  var saved = localStorage.getItem(key);
+  if (saved && saved.indexOf(base) === 0) { window.location.replace(saved); return; }
+  var request = new XMLHttpRequest();
+  request.open('GET', 'https://sunrock98.github.io/kinopub-lg-updates/latest.json?t=' + Date.now(), true);
+  request.onreadystatechange = function () {
+    if (request.readyState !== 4) return;
+    try {
+      var manifest = JSON.parse(request.responseText);
+      if (request.status >= 200 && request.status < 300 && manifest.url.indexOf(base) === 0) {
+        window.location.replace(manifest.url);
+        return;
+      }
+    } catch (error) {}
+    document.getElementById('status').textContent = 'Не удалось загрузить приложение. Проверьте интернет-соединение.';
+  };
+  request.send();
+}());
+</script>
+</body>
+</html>
