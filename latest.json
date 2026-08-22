@@ -1,5 +1,5 @@
 {
-  "version": "0.3.41",
-  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.41/index.html",
-  "notes": "Тест автоматического обновления: добавлен зелёный индикатор версии 0.3.41."
+  "version": "0.3.42",
+  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.42/index.html",
+  "notes": "Убран тестовый баннер. Добавлен локальный прогресс просмотра с приоритетом над серверным."
 }
