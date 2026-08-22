@@ -1,5 +1,5 @@
 {
-  "version": "0.3.42",
-  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.42/index.html",
-  "notes": "Убран тестовый баннер. Добавлен локальный прогресс просмотра с приоритетом над серверным."
+  "version": "0.3.43",
+  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.43/index.html",
+  "notes": "Гибридная версия: встроенная локальная копия запускается при недоступности GitHub."
 }
