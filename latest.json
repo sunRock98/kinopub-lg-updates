@@ -1,5 +1,5 @@
 {
-  "version": "0.3.47",
-  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.47/index.html",
-  "notes": "Исправлена лента локальной истории: она больше не растягивает экран и не уводит версию и кнопку выхода за границы телевизора."
+  "version": "0.3.48",
+  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.48/index.html",
+  "notes": "Исправлено удаление текста в поиске: Backspace больше не закрывает поиск и не возвращает на главную."
 }
