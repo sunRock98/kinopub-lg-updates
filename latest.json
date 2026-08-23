@@ -1,5 +1,5 @@
 {
-  "version": "0.3.43",
-  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.43/index.html",
-  "notes": "Гибридная версия: встроенная локальная копия запускается при недоступности GitHub."
+  "version": "0.3.44",
+  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.44/index.html",
+  "notes": "Исправлено обновление сессии без лишней регистрации устройства. У фильмов убраны ложные серии. Кнопка OK сразу управляет паузой. В карточке фильма фокус ставится на «Продолжить»."
 }
