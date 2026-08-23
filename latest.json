@@ -1,5 +1,5 @@
 {
-  "version": "0.3.46",
-  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.46/index.html",
-  "notes": "Исправлена ширина верхней панели: версия и кнопка «Выйти» всегда остаются в пределах экрана."
+  "version": "0.3.47",
+  "url": "https://sunrock98.github.io/kinopub-lg-updates/releases/0.3.47/index.html",
+  "notes": "Исправлена лента локальной истории: она больше не растягивает экран и не уводит версию и кнопку выхода за границы телевизора."
 }
